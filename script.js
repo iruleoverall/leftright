@@ -1,16 +1,15 @@
 let  left = document.querySelector('.left');
 let  right = document.querySelector('.right');
-let  leftRight = document.querySelector('.leftRight');
+let  tt = document.querySelector('.tt');
 
-let  pizza = document.querySelector('.pizza');
-pizza.style.display ="none";
+let  door = document.querySelector('.door');
+door.style.display ="none";
 
 left.addEventListener('click', function() {
 
-    leftRight.style.display ="none";
+    tt.style.display ="none";
     left.style.display ="none";
     right.style.display ="none";
-   
-    pizza.style.display ="block";
+    door.style.display ="block";
 
 });
