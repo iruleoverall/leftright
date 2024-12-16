@@ -13,3 +13,5 @@ left.addEventListener('click', function() {
     door.style.display ="block";
 
 });
+
+//double click                
